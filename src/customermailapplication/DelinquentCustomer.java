@@ -14,7 +14,7 @@ package customermailapplication;
 public class DelinquentCustomer extends Customer {
 
     @Override
-    public String createMail() {
+    public String toString() {
         return "Delinquent Customer";
     }
     

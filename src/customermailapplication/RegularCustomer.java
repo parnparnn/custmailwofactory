@@ -14,7 +14,7 @@ package customermailapplication;
 public class RegularCustomer extends Customer {
 
     @Override
-    public String createMail() {
+    public String toString() {
         return "Regular Customer";
     }
     

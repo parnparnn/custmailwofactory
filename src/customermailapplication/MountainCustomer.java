@@ -14,7 +14,7 @@ package customermailapplication;
 public class MountainCustomer extends Customer {
 
     @Override
-    public String createMail() {
+    public String toString() {
         return "Moutain Customer";
     }
     
